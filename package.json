@@ -1,0 +1,20 @@
+{
+  "name": "vrt-cat-tat",
+  "version": "1.0.0",
+  "description": "Sample project to experiment with Visual Regression Tracker.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "VRT",
+    "Testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@visual-regression-tracker/agent-cypress": "^5.3.0",
+    "cypress": "^9.6.1"
+  }
+}
